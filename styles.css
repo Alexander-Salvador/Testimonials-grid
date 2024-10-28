@@ -1,0 +1,41 @@
+:root {
+    /* BREAKPOINTS */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --Mobile: 375px;
+    --Desktop: 1440px;
+
+    /* COLORS */
+    --background-color: hsl(0, 0%, 81%);
+    --background-color2: hsl(210, 46%, 95%);
+    --color-violet: hsl(263, 55%, 52%);
+    --color-grayish-blue: hsl(217, 19%, 35%);
+    --color-blackish-blue: hsl(219, 29%, 14%);
+    --white-color: hsl(0, 0%, 100%);
+
+    /* FONT SIZE */
+    /* 5rem = 8px  |  1rem = 16px */
+    --fontsize-h: 13px;
+    --fontsize-p: 10px;
+
+
+    /* FONT WEIGHT */
+    --fontweight-1: 500;
+    --fontweight-2: 600;
+
+    /* LINE HEIGHT */
+    --lineheight-h: ;
+    --lineheight-p: ;
+
+
+    /* PADDING SECTION */
+    --padding-primary: ;
+
+    /* TYPOGRAPHY */
+    --ffamily-main: "Barlow Semi Condensed", sans-serif;
+    --ffamily-secundary: "Montserrat", sans-serif;
+
+}
