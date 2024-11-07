@@ -39,3 +39,117 @@
     --ffamily-secundary: "Montserrat", sans-serif;
 
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    background-color: var(--white-color);
+    min-width: 350px;
+    justify-items: center;
+}
+
+/* PREDEFINE STYLES */
+
+h2 {
+    color: rgb(184, 184, 184);
+    font-family: var(--ffamily-main);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    color: rgb(162, 161, 161);
+    font-family: var(--ffamily-main);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 40px;
+    max-width: 480px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-template-areas:
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco"
+    ;
+}
+
+.photo-card {
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--background-color);
+}
+
+
+.card-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: uno;
+    background-color: var(--color-violet);
+    border-radius: 10px;
+    padding: 20px 40px;
+    gap: 20px;
+
+    header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card-description1 {
+        /* gap: 30px; */
+
+        h2 {}
+
+        p {}
+
+    }
+
+
+
+    .card-description2 {
+        display: grid;
+        gap: 20px;
+
+        .card-paragraph1 {
+            font-family: var(--ffamily-secundary);
+            font-size: 22px;
+            color: var(--background-color);
+            font-weight: 500;
+        }
+
+        .card-paragraph2 {
+            color: rgb(162, 161, 161);
+            font-family: var(--ffamily-secundary);
+            font-size: 18px;
+        }
+    }
+}
+
+.card-2 {
+    grid-area: dos;
+}
+
+.card-3 {
+    grid-area: tres;
+}
+
+.card-4 {
+    grid-area: cuatro;
+}
+
+.card-5 {
+    grid-area: cinco;
+}
