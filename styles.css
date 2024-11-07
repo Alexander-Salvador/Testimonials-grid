@@ -92,6 +92,7 @@ p {
     border: 2px solid var(--background-color);
 }
 
+/* AGREGAR STYLE A TODAS LAS TARJETAS, UTILIZANDO DE GUIA LA CARD-1 */
 
 .card-1 {
     display: grid;
